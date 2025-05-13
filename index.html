@@ -19,8 +19,28 @@
 <input type="submit" onclick="Logar();" return false>
 
 
+
 </form>
 
 
 </body>
+
+
 </html>
+
+<script>
+    function logar() {
+        
+    
+
+var Login=document.getElementById (Login).value;
+var Senha=document.getElementById (Senha).value; 
+var Email=document.getElementById (Email).value;
+var Telefone=document.getElementById (Telefone).value;
+if (Login=='ADMIN' && Senha=='ADMIN') {alert('sucesso');
+location.href="HOME.HTML";}
+     ELSE {
+    alert('USUÁRIO OU SENHA INCORRETOS');
+}
+}
+</script>
