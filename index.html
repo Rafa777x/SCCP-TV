@@ -9,11 +9,12 @@
 </form>
 <h3>CADASTRO</h3>
 
-<input type="text" placeholder="Login" id="login">
-<input type="password" placeholder="Senha" id="senha"
-<input type="email" placeholder="Email" id="email">
-<input type="email" placeholder="Email" id="email">
-<input type="tel" placeholder="Telefone" id="telefone"
+<input type="text" placeholder="Login" id="Login">
+    <br><br>
+<input type="password" placeholder="Senha" id="Senha"
+<input type="email" placeholder="Email" id="Email">
+<input type="email" placeholder="Email" id="Email">
+<input type="tel" placeholder="Telefone" id="Telefone"
 <input type="submit" onclick="logar();" return false>
 <input type="submit" onclick="logar();" return false>
 
@@ -21,28 +22,25 @@
 
 </form>
 
+
+</body>
+
+
+</html>
+
 <script>
     function logar() {
         
     
 
-var Login = document.getElementById ('login').value;
-var Senha = document.getElementById ('senha').value; 
-var Email = document.getElementById ('email').value;
-var Telefone = document.getElementById ('telefone').value;
-
-
-if (login == "ADM" && senha == "ADM"){
-    alert('Sucesso');
-    location.href = "home.html";
-}else{
-    alert('Usuário ou senha incorretos');
+var Login=document.getElementById ('Login').value;
+var Senha=document.getElementById ('Senha').value; 
+var Email=document.getElementById ('Email').value;
+var Telefone=document.getElementById ('Telefone').value;
+if (Login=='ADMIN' && Senha=='ADMIN') {alert('sucesso');
+location.href="home.html";}
+     else {
+    alert('USUÁRIO OU SENHA INCORRETOS');
 }
-   }
-
-
+}
 </script>
-
-</body>
-
-</html>
